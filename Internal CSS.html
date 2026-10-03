@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TechWorld - CSS Demo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #333;
+    }
+
+    nav {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      padding: 20px 8%;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 10px 0;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 650px;
+      margin: 20px auto;
+      line-height: 1.6;
+    }
+
+    .hero button {
+      background: #ffcc00;
+      color: #222;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
+    .services {
+      padding: 60px 8%;
+      text-align: center;
+    }
+
+    .services-title {
+      font-size: 34px;
+      color: #2c3e50;
+    }
+
+    .services-subtitle {
+      color: #777;
+      margin-bottom: 40px;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      width: 280px;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-icon {
+      font-size: 45px;
+    }
+
+    .card-title-web {
+      color: #6a11cb;
+      font-size: 22px;
+    }
+
+    .card-title-mobile {
+      color: #e84393;
+      font-size: 22px;
+    }
+
+    .card-title-cloud {
+      color: #00b894;
+      font-size: 22px;
+    }
+
+    .card p {
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .card-link-web {
+      color: #2575fc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card-link-mobile {
+      color: #e84393;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card-link-cloud {
+      color: #00b894;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #1e272e;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <h2>TechWorld</h2>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Build Your Digital Future</h1>
+    <p>Learn modern technologies and transform your ideas into powerful digital experiences.</p>
+    <button>Get Started</button>
+  </section>
+
+  <!-- Features -->
+  <section class="services">
+    <h2 class="services-title">Our Services</h2>
+    <p class="services-subtitle">Everything you need to build modern web applications.</p>
+    <div class="card-container">
+      
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="card-icon">💻</div>
+        <h3 class="card-title-web">Web Development</h3>
+        <p>Create responsive and interactive websites using modern web technologies.</p>
+        <a href="#" class="card-link-web">Learn More →</a>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="card-icon">📱</div>
+        <h3 class="card-title-mobile">Mobile Apps</h3>
+        <p>Develop user-friendly mobile applications for modern devices and platforms.</p>
+        <a href="#" class="card-link-mobile">Learn More →</a>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="card-icon">☁️</div>
+        <h3 class="card-title-cloud">Cloud Solutions</h3>
+        <p>Build scalable and reliable applications using cloud technologies.</p>
+        <a href="#" class="card-link-cloud">Learn More →</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 TechWorld. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
